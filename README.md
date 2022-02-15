@@ -17,7 +17,7 @@
 <h3 align="center">VitalCraft</h3>
 
   <p align="center">
-    Fly on Spigot and Paper
+    Open a crafting interface on Spigot and Paper
     <br />
     <a href="https://github.com/TamrielNetwork/VitalCraft"><strong>Explore the docs »</strong></a>
     <br />
@@ -68,11 +68,7 @@ This plugin is perfect for any server wanting their players to craft on the go.
 
 ### Features
 
-* Toggle fly on and off for command sender and other players
-* Set fly speed for command sender and other players
-* Keep fly on world change
-* Keep fly toggled on rejoin when player is falling
-* Keep fly toggled when player changes back to survival
+* Open Crafting interface
 
 ### Built With
 
