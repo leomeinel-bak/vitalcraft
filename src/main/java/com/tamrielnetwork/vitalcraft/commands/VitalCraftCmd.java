@@ -35,12 +35,12 @@ public class VitalCraftCmd implements CommandExecutor {
 			return true;
 		}
 		// Toggle Crafting Interface
-		toggleCraftingInterface(sender);
+		openWorkbench(sender);
 		return true;
 
 	}
 
-	private void toggleCraftingInterface(CommandSender sender) {
+	private void openWorkbench(CommandSender sender) {
 		// Check if command sender is a player
 		if (!(sender instanceof Player)) {
 			Utils.sendMessage(sender, "player-only");
