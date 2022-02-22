@@ -44,7 +44,7 @@ public class VitalCraftCmd implements CommandExecutor {
 		if (Cmd.isInvalidSender(sender) || Cmd.isNotPermitted(sender, "vitalcraft.craft")) {
 			return;
 		}
-		senderPlayer.openWorkbench(senderPlayer.getLocation(),true);
+		senderPlayer.openWorkbench(senderPlayer.getLocation(), true);
 
 	}
 }
