@@ -39,12 +39,14 @@ public class VitalCraftCmd implements CommandExecutor {
 	}
 
 	private void doCraft(@NotNull CommandSender sender) {
-		Player senderPlayer = (Player) sender;
 
 		if (Cmd.isInvalidSender(sender) || Cmd.isNotPermitted(sender, "vitalcraft.craft")) {
 			return;
 		}
+		Player senderPlayer = (Player) sender;
+
 		senderPlayer.openWorkbench(senderPlayer.getLocation(), true);
 
 	}
+
 }

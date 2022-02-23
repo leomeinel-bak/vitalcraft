@@ -52,6 +52,7 @@ public final class VitalCraft extends JavaPlugin {
 	}
 
 	public Messages getMessages() {
+
 		return messages;
 	}
 
