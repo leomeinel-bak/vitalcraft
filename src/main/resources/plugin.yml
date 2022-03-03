@@ -6,9 +6,9 @@ authors: [ Tamriel Network ]
 website: https://tamriel.site
 description: Gives players the ability to open a crafting interface.
 commands:
-  vitalcraft:
+  craft:
     description: "Main command"
-    usage: "/vitalcraft"
+    usage: "/craft"
 permissions:
   vitalcraft.craft:
     description: "Permission to toggle crafting interface"

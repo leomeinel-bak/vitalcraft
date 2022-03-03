@@ -85,7 +85,7 @@ To get the plugin running on your server follow these simple steps.
 
 1. Permission: `vitalcraft.craft`
 
-* Command: `/vitalcraft`
+* Command: `/craft`
 * Description: Toggle crafting interface
 
 ### Configuration - config.yml

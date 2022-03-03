@@ -16,39 +16,19 @@
  * along with this program. If not, see https://github.com/TamrielNetwork/VitalCraft/blob/main/LICENSE
  */
 
-package com.tamrielnetwork.vitalcraft.commands;
+package com.tamrielnetwork.vitalcraft.utils.commands;
 
-import com.tamrielnetwork.vitalcraft.utils.commands.Cmd;
-import com.tamrielnetwork.vitalcraft.utils.commands.CmdSpec;
-import org.bukkit.command.Command;
-import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
-import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
 
-public class VitalCraftCmd implements CommandExecutor {
+public class CmdSpec {
 
-	@Override
-	public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String[] args) {
+	public static boolean isInvalidCmd(@NotNull CommandSender sender, @NotNull String perm) {
 
-		if (Cmd.isArgsLengthNotEqualTo(sender, args, 0)) {
+		if (Cmd.isInvalidSender(sender)) {
 			return true;
 		}
-		doCraft(sender);
-		return true;
-
-	}
-
-	private void doCraft(@NotNull CommandSender sender) {
-
-		if (CmdSpec.isInvalidCmd(sender, "vitalcraft.craft")) {
-			return;
-		}
-
-		Player senderPlayer = (Player) sender;
-
-		senderPlayer.openWorkbench(senderPlayer.getLocation(), true);
-
+		return Cmd.isNotPermitted(sender, perm);
 	}
 
 }

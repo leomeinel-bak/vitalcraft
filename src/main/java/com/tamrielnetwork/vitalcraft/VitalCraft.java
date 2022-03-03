@@ -32,9 +32,7 @@ public final class VitalCraft extends JavaPlugin {
 	@Override
 	public void onEnable() {
 
-		Objects.requireNonNull(getCommand("vitalcraft")).setExecutor(new VitalCraftCmd());
-
-		saveDefaultConfig();
+		Objects.requireNonNull(getCommand("craft")).setExecutor(new VitalCraftCmd());
 
 		messages = new Messages();
 
