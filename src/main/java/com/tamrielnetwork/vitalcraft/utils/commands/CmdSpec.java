@@ -24,6 +24,7 @@ import org.jetbrains.annotations.NotNull;
 public class CmdSpec {
 
 	private CmdSpec() {
+
 		throw new IllegalStateException("Utility class");
 	}
 
