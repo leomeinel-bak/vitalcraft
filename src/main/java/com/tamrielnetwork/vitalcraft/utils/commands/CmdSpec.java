@@ -24,16 +24,13 @@ import org.jetbrains.annotations.NotNull;
 public class CmdSpec {
 
 	private CmdSpec() {
-
 		throw new IllegalStateException("Utility class");
 	}
 
 	public static boolean isInvalidCmd(@NotNull CommandSender sender, @NotNull String perm) {
-
 		if (Cmd.isInvalidSender(sender)) {
 			return true;
 		}
 		return Cmd.isNotPermitted(sender, perm);
 	}
-
 }
