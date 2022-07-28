@@ -16,9 +16,9 @@
  * along with this program. If not, see https://github.com/LeoMeinel/VitalCraft/blob/main/LICENSE
  */
 
-package com.tamrielnetwork.vitalcraft.files;
+package dev.meinel.leo.vitalcraft.files;
 
-import com.tamrielnetwork.vitalcraft.VitalCraft;
+import dev.meinel.leo.vitalcraft.VitalCraft;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;

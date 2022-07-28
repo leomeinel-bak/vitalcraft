@@ -16,9 +16,9 @@
  * along with this program. If not, see https://github.com/LeoMeinel/VitalCraft/blob/main/LICENSE
  */
 
-package com.tamrielnetwork.vitalcraft.utils.commands;
+package dev.meinel.leo.vitalcraft.utils.commands;
 
-import com.tamrielnetwork.vitalcraft.utils.Chat;
+import dev.meinel.leo.vitalcraft.utils.Chat;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;

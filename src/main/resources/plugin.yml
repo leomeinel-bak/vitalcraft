@@ -1,6 +1,6 @@
 name: VitalCraft
 version: @version@
-main: com.tamrielnetwork.vitalcraft.VitalCraft
+main: dev.meinel.leo.vitalcraft.VitalCraft
 api-version: 1.17
 authors: [ Leopold Meinel ]
 description: Gives players the ability to open a crafting interface.

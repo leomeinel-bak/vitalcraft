@@ -16,18 +16,31 @@
  * along with this program. If not, see https://github.com/LeoMeinel/VitalCraft/blob/main/LICENSE
  */
 
-package com.tamrielnetwork.vitalcraft.utils.commands;
+package dev.meinel.leo.vitalcraft.utils;
 
+import dev.meinel.leo.vitalcraft.VitalCraft;
+import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
+import org.bukkit.plugin.java.JavaPlugin;
 import org.jetbrains.annotations.NotNull;
 
-public class CmdSpec {
+import java.util.Objects;
 
-	private CmdSpec() {
+public class Chat {
+
+	private static final VitalCraft main = JavaPlugin.getPlugin(VitalCraft.class);
+
+	private Chat() {
 		throw new IllegalStateException("Utility class");
 	}
 
-	public static boolean isInvalidCmd(@NotNull CommandSender sender, @NotNull String perm) {
-		return Cmd.isInvalidSender(sender) || Cmd.isNotPermitted(sender, perm);
+	public static void sendMessage(@NotNull CommandSender player, @NotNull String message) {
+		player.sendMessage(replaceColors(Objects.requireNonNull(main.getMessages()
+		                                                            .getMessagesConf()
+		                                                            .getString(message))));
+	}
+
+	public static String replaceColors(@NotNull String string) {
+		return ChatColor.translateAlternateColorCodes('&', string);
 	}
 }

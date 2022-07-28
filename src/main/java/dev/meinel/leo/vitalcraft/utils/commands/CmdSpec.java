@@ -16,34 +16,18 @@
  * along with this program. If not, see https://github.com/LeoMeinel/VitalCraft/blob/main/LICENSE
  */
 
-package com.tamrielnetwork.vitalcraft.commands;
+package dev.meinel.leo.vitalcraft.utils.commands;
 
-import com.tamrielnetwork.vitalcraft.utils.commands.Cmd;
-import com.tamrielnetwork.vitalcraft.utils.commands.CmdSpec;
-import org.bukkit.command.Command;
-import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
-import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
 
-public class VitalCraftCmd
-		implements CommandExecutor {
+public class CmdSpec {
 
-	@Override
-	public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label,
-	                         @NotNull String[] args) {
-		if (Cmd.isArgsLengthNotEqualTo(sender, args, 0)) {
-			return false;
-		}
-		doCraft(sender);
-		return true;
+	private CmdSpec() {
+		throw new IllegalStateException("Utility class");
 	}
 
-	private void doCraft(@NotNull CommandSender sender) {
-		if (CmdSpec.isInvalidCmd(sender, "vitalcraft.craft")) {
-			return;
-		}
-		Player senderPlayer = (Player) sender;
-		senderPlayer.openWorkbench(senderPlayer.getLocation(), true);
+	public static boolean isInvalidCmd(@NotNull CommandSender sender, @NotNull String perm) {
+		return Cmd.isInvalidSender(sender) || Cmd.isNotPermitted(sender, perm);
 	}
 }

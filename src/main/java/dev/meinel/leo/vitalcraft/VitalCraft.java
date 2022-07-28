@@ -16,10 +16,10 @@
  * along with this program. If not, see https://github.com/LeoMeinel/VitalCraft/blob/main/LICENSE
  */
 
-package com.tamrielnetwork.vitalcraft;
+package dev.meinel.leo.vitalcraft;
 
-import com.tamrielnetwork.vitalcraft.commands.VitalCraftCmd;
-import com.tamrielnetwork.vitalcraft.files.Messages;
+import dev.meinel.leo.vitalcraft.commands.VitalCraftCmd;
+import dev.meinel.leo.vitalcraft.files.Messages;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
