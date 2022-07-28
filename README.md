@@ -10,7 +10,7 @@
 <!--suppress ALL -->
 <br />
 <p align="center">
-  <a href="https://github.com/TamrielNetwork/VitalCraft">
+  <a href="https://github.com/LeoMeinel/VitalCraft">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -19,14 +19,14 @@
   <p align="center">
     Open a crafting interface on Spigot and Paper
     <br />
-    <a href="https://github.com/TamrielNetwork/VitalCraft"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/LeoMeinel/VitalCraft"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/TamrielNetwork/VitalCraft">View Demo</a>
+    <a href="https://github.com/LeoMeinel/VitalCraft">View Demo</a>
     ·
-    <a href="https://github.com/TamrielNetwork/VitalCraft/issues">Report Bug</a>
+    <a href="https://github.com/LeoMeinel/VitalCraft/issues">Report Bug</a>
     ·
-    <a href="https://github.com/TamrielNetwork/VitalCraft/issues">Request Feature</a>
+    <a href="https://github.com/LeoMeinel/VitalCraft/issues">Request Feature</a>
   </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -100,7 +100,7 @@ player-only: "&cThis command can only be executed by players!"
 
 ## Roadmap
 
-See the [open issues](https://github.com/TamrielNetwork/VitalCraft/issues) for a list of proposed features (and known
+See the [open issues](https://github.com/LeoMeinel/VitalCraft/issues) for a list of proposed features (and known
 issues).
 
 <!-- CONTRIBUTING -->
@@ -130,7 +130,7 @@ Leopold Meinel - [@TamrielN](https://twitter.com/TamrielN) - Twitter
 
 Leopold Meinel - [contact@tamriel.me](mailto:contact@tamriel.me) - eMail
 
-Project Link - [VitalCraft](https://github.com/TamrielNetwork/VitalCraft) - GitHub
+Project Link - [VitalCraft](https://github.com/LeoMeinel/VitalCraft) - GitHub
 
 <!-- ACKNOWLEDGEMENTS -->
 
@@ -140,26 +140,26 @@ Project Link - [VitalCraft](https://github.com/TamrielNetwork/VitalCraft) - GitH
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[contributors-shield]: https://img.shields.io/github/contributors-anon/TamrielNetwork/VitalCraft?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors-anon/LeoMeinel/VitalCraft?style=for-the-badge
 
-[contributors-url]: https://github.com/TamrielNetwork/VitalCraft/graphs/contributors
+[contributors-url]: https://github.com/LeoMeinel/VitalCraft/graphs/contributors
 
-[forks-shield]: https://img.shields.io/github/forks/TamrielNetwork/VitalCraft?label=Forks&style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/LeoMeinel/VitalCraft?label=Forks&style=for-the-badge
 
-[forks-url]: https://github.com/TamrielNetwork/VitalCraft/network/members
+[forks-url]: https://github.com/LeoMeinel/VitalCraft/network/members
 
-[stars-shield]: https://img.shields.io/github/stars/TamrielNetwork/VitalCraft?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/LeoMeinel/VitalCraft?style=for-the-badge
 
-[stars-url]: https://github.com/TamrielNetwork/VitalCraft/stargazers
+[stars-url]: https://github.com/LeoMeinel/VitalCraft/stargazers
 
-[issues-shield]: https://img.shields.io/github/issues/TamrielNetwork/VitalCraft?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/LeoMeinel/VitalCraft?style=for-the-badge
 
-[issues-url]: https://github.com/TamrielNetwork/VitalCraft/issues
+[issues-url]: https://github.com/LeoMeinel/VitalCraft/issues
 
-[license-shield]: https://img.shields.io/github/license/TamrielNetwork/VitalCraft?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/LeoMeinel/VitalCraft?style=for-the-badge
 
-[license-url]: https://github.com/TamrielNetwork/VitalCraft/blob/main/LICENSE
+[license-url]: https://github.com/LeoMeinel/VitalCraft/blob/main/LICENSE
 
-[quality-shield]: https://img.shields.io/codefactor/grade/github/TamrielNetwork/VitalCraft?style=for-the-badge
+[quality-shield]: https://img.shields.io/codefactor/grade/github/LeoMeinel/VitalCraft?style=for-the-badge
 
-[quality-url]: https://www.codefactor.io/repository/github/TamrielNetwork/VitalCraft
+[quality-url]: https://www.codefactor.io/repository/github/LeoMeinel/VitalCraft
