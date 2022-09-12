@@ -15,11 +15,11 @@ import org.jetbrains.annotations.NotNull;
 
 public class CmdSpec {
 
-	private CmdSpec() {
-		throw new IllegalStateException("Utility class");
-	}
+    private CmdSpec() {
+        throw new IllegalStateException("Utility class");
+    }
 
-	public static boolean isInvalidCmd(@NotNull CommandSender sender, @NotNull String perm) {
-		return Cmd.isInvalidSender(sender) || Cmd.isNotPermitted(sender, perm);
-	}
+    public static boolean isInvalidCmd(@NotNull CommandSender sender, @NotNull String perm) {
+        return Cmd.isInvalidSender(sender) || Cmd.isNotPermitted(sender, perm);
+    }
 }

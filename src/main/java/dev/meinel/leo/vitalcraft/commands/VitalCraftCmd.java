@@ -19,23 +19,23 @@ import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
 
 public class VitalCraftCmd
-		implements CommandExecutor {
+        implements CommandExecutor {
 
-	@Override
-	public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label,
-			@NotNull String[] args) {
-		if (Cmd.isArgsLengthNotEqualTo(sender, args, 0)) {
-			return false;
-		}
-		doCraft(sender);
-		return true;
-	}
+    @Override
+    public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label,
+            @NotNull String[] args) {
+        if (Cmd.isArgsLengthNotEqualTo(sender, args, 0)) {
+            return false;
+        }
+        doCraft(sender);
+        return true;
+    }
 
-	private void doCraft(@NotNull CommandSender sender) {
-		if (CmdSpec.isInvalidCmd(sender, "vitalcraft.craft")) {
-			return;
-		}
-		Player senderPlayer = (Player) sender;
-		senderPlayer.openWorkbench(senderPlayer.getLocation(), true);
-	}
+    private void doCraft(@NotNull CommandSender sender) {
+        if (CmdSpec.isInvalidCmd(sender, "vitalcraft.craft")) {
+            return;
+        }
+        Player senderPlayer = (Player) sender;
+        senderPlayer.openWorkbench(senderPlayer.getLocation(), true);
+    }
 }
