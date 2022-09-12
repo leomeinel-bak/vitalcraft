@@ -1,4 +1,5 @@
 <!-- PROJECT SHIELDS -->
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -68,12 +69,12 @@ This plugin is perfect for any server wanting their players to craft on the go.
 
 ### Features
 
-* Open Crafting interface
+- Open Crafting interface
 
 ### Built With
 
-* [Gradle 7](https://docs.gradle.org/7.4/release-notes.html)
-* [OpenJDK 17](https://openjdk.java.net/projects/jdk/17/)
+- [Gradle 7](https://docs.gradle.org/7.4/release-notes.html)
+- [OpenJDK 17](https://openjdk.java.net/projects/jdk/17/)
 
 <!-- GETTING STARTED -->
 
@@ -85,8 +86,8 @@ To get the plugin running on your server follow these simple steps.
 
 1. Permission: `vitalcraft.craft`
 
-* Command: `/craft`
-* Description: Toggle crafting interface
+- Command: `/craft`
+- Description: Toggle crafting interface
 
 ### Configuration - messages.yml
 
@@ -134,30 +135,19 @@ Project Link - [VitalCraft](https://github.com/LeoMeinel/VitalCraft) - GitHub
 
 ### Acknowledgements
 
-* [README.md - othneildrew](https://github.com/othneildrew/Best-README-Template)
+- [README.md - othneildrew](https://github.com/othneildrew/Best-README-Template)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
 [contributors-shield]: https://img.shields.io/github/contributors-anon/LeoMeinel/VitalCraft?style=for-the-badge
-
 [contributors-url]: https://github.com/LeoMeinel/VitalCraft/graphs/contributors
-
 [forks-shield]: https://img.shields.io/github/forks/LeoMeinel/VitalCraft?label=Forks&style=for-the-badge
-
 [forks-url]: https://github.com/LeoMeinel/VitalCraft/network/members
-
 [stars-shield]: https://img.shields.io/github/stars/LeoMeinel/VitalCraft?style=for-the-badge
-
 [stars-url]: https://github.com/LeoMeinel/VitalCraft/stargazers
-
 [issues-shield]: https://img.shields.io/github/issues/LeoMeinel/VitalCraft?style=for-the-badge
-
 [issues-url]: https://github.com/LeoMeinel/VitalCraft/issues
-
 [license-shield]: https://img.shields.io/github/license/LeoMeinel/VitalCraft?style=for-the-badge
-
 [license-url]: https://github.com/LeoMeinel/VitalCraft/blob/main/LICENSE
-
 [quality-shield]: https://img.shields.io/codefactor/grade/github/LeoMeinel/VitalCraft?style=for-the-badge
-
 [quality-url]: https://www.codefactor.io/repository/github/LeoMeinel/VitalCraft
