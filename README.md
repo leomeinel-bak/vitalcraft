@@ -11,7 +11,7 @@
 <!--suppress ALL -->
 <br />
 <p align="center">
-  <a href="https://github.com/LeoMeinel/VitalCraft">
+  <a href="https://github.com/LeoMeinel/vitalcraft">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -20,14 +20,14 @@
   <p align="center">
     Open a crafting interface on Spigot and Paper
     <br />
-    <a href="https://github.com/LeoMeinel/VitalCraft"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/LeoMeinel/vitalcraft"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/LeoMeinel/VitalCraft">View Demo</a>
+    <a href="https://github.com/LeoMeinel/vitalcraft">View Demo</a>
     ·
-    <a href="https://github.com/LeoMeinel/VitalCraft/issues">Report Bug</a>
+    <a href="https://github.com/LeoMeinel/vitalcraft/issues">Report Bug</a>
     ·
-    <a href="https://github.com/LeoMeinel/VitalCraft/issues">Request Feature</a>
+    <a href="https://github.com/LeoMeinel/vitalcraft/issues">Request Feature</a>
   </p>
 
 <!-- ABOUT THE PROJECT -->
@@ -74,7 +74,7 @@ player-only: "&cThis command can only be executed by players!"
 
 ## Roadmap
 
-See the [open issues](https://github.com/LeoMeinel/VitalCraft/issues) for a list of proposed features (and known
+See the [open issues](https://github.com/LeoMeinel/vitalcraft/issues) for a list of proposed features (and known
 issues).
 
 <!-- CONTRIBUTING -->
@@ -102,7 +102,7 @@ Distributed under the GNU General Public License v3.0. See `LICENSE` for more in
 
 Leopold Meinel - [leo@meinel.dev](mailto:leo@meinel.dev) - eMail
 
-Project Link - [VitalCraft](https://github.com/LeoMeinel/VitalCraft) - GitHub
+Project Link - [VitalCraft](https://github.com/LeoMeinel/vitalcraft) - GitHub
 
 <!-- ACKNOWLEDGEMENTS -->
 
@@ -112,15 +112,15 @@ Project Link - [VitalCraft](https://github.com/LeoMeinel/VitalCraft) - GitHub
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[contributors-shield]: https://img.shields.io/github/contributors-anon/LeoMeinel/VitalCraft?style=for-the-badge
-[contributors-url]: https://github.com/LeoMeinel/VitalCraft/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/LeoMeinel/VitalCraft?label=Forks&style=for-the-badge
-[forks-url]: https://github.com/LeoMeinel/VitalCraft/network/members
-[stars-shield]: https://img.shields.io/github/stars/LeoMeinel/VitalCraft?style=for-the-badge
-[stars-url]: https://github.com/LeoMeinel/VitalCraft/stargazers
-[issues-shield]: https://img.shields.io/github/issues/LeoMeinel/VitalCraft?style=for-the-badge
-[issues-url]: https://github.com/LeoMeinel/VitalCraft/issues
-[license-shield]: https://img.shields.io/github/license/LeoMeinel/VitalCraft?style=for-the-badge
-[license-url]: https://github.com/LeoMeinel/VitalCraft/blob/main/LICENSE
-[quality-shield]: https://img.shields.io/codefactor/grade/github/LeoMeinel/VitalCraft?style=for-the-badge
-[quality-url]: https://www.codefactor.io/repository/github/LeoMeinel/VitalCraft
+[contributors-shield]: https://img.shields.io/github/contributors-anon/LeoMeinel/vitalcraft?style=for-the-badge
+[contributors-url]: https://github.com/LeoMeinel/vitalcraft/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/LeoMeinel/vitalcraft?label=Forks&style=for-the-badge
+[forks-url]: https://github.com/LeoMeinel/vitalcraft/network/members
+[stars-shield]: https://img.shields.io/github/stars/LeoMeinel/vitalcraft?style=for-the-badge
+[stars-url]: https://github.com/LeoMeinel/vitalcraft/stargazers
+[issues-shield]: https://img.shields.io/github/issues/LeoMeinel/vitalcraft?style=for-the-badge
+[issues-url]: https://github.com/LeoMeinel/vitalcraft/issues
+[license-shield]: https://img.shields.io/github/license/LeoMeinel/vitalcraft?style=for-the-badge
+[license-url]: https://github.com/LeoMeinel/vitalcraft/blob/main/LICENSE
+[quality-shield]: https://img.shields.io/codefactor/grade/github/LeoMeinel/vitalcraft?style=for-the-badge
+[quality-url]: https://www.codefactor.io/repository/github/LeoMeinel/vitalcraft
