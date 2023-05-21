@@ -2,7 +2,7 @@
  * File: CmdSpec.java
  * Author: Leopold Meinel (leo@meinel.dev)
  * -----
- * Copyright (c) 2022 Leopold Meinel & contributors
+ * Copyright (c) 2023 Leopold Meinel & contributors
  * SPDX ID: GPL-3.0-or-later
  * URL: https://www.gnu.org/licenses/gpl-3.0-standalone.html
  * -----
@@ -20,6 +20,6 @@ public class CmdSpec {
     }
 
     public static boolean isInvalidCmd(@NotNull CommandSender sender, @NotNull String perm) {
-        return Cmd.isInvalidSender(sender) || Cmd.isNotPermitted(sender, perm);
+        return Cmd.isInvalidSender(sender) || !Cmd.isPermitted(sender, perm);
     }
 }
